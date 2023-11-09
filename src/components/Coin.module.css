@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 20px 25px 7px 15px;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  padding-bottom: 15px;
+}
+.container:hover{
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+.imgAndName {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 45px;
+  margin: 1px 10px 0px 20px;
+}
+.name{
+    width: 140px;
+    text-align: left;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+.symbol{
+    width: 70px;
+    text-align: left;
+    margin: 1px 20px ;
+}
+.currentPrice{
+    width: 70px;
+    margin: 1px 20px;
+    text-align: left;
+}
+.priceChangePositive{
+    font-weight: bold;
+    color: green;
+    width: 70px;
+    margin: 1px 50px 0px 20px;
+    text-align: left;
+}
+.priceChangeNegative{
+    font-weight: bold;
+    color: red;
+    width: 70px;
+    margin: 1px 50px 0px 20px;
+    text-align: left;
+}
